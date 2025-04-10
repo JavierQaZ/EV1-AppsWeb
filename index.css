@@ -323,6 +323,26 @@ footer {
 
     .team-cards {
         grid-template-columns: 1fr;
+        position: relative;
+    }
+
+    .team-card {
+        margin-bottom: 30px;
+        position: relative;
+    }
+
+    .team-card:not(:last-child)::after {
+        content: "";
+        position: absolute;
+        bottom: -25px;
+        left: -30px;
+        width: calc(100% + 60px);
+        height: 1px;
+        background-color: #ffffff;
+    }
+
+    .team-container {
+        overflow: hidden;
     }
 
     .team-info {
