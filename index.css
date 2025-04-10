@@ -218,7 +218,18 @@ header p {
     padding: 15px;
 }
 
-.team-photo {
+.team-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.team-name {
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.team-photo img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -226,7 +237,10 @@ header p {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 10px;
+}
+
+.team-description {
+    margin-top: 5px;
 }
 
 footer {
@@ -303,7 +317,21 @@ footer {
         display: none;
     }
 
+    .team-container {
+        padding: 0 30px;
+    }
+
     .team-cards {
         grid-template-columns: 1fr;
+    }
+
+    .team-info {
+        flex-direction: column;
+    }
+
+    .team-name {
+        margin-left: 0;
+        margin-top: 10px;
+        text-align: center;
     }
 }
