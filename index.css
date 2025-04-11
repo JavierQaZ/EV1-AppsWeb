@@ -206,6 +206,7 @@ header p {
 .team-container {
     margin-bottom: 30px;
 }
+
 .team-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -318,7 +319,7 @@ footer {
     }
 
     .team-container {
-        padding: 0 30px;
+        padding: 0;
     }
 
     .team-cards {
@@ -326,19 +327,17 @@ footer {
         position: relative;
     }
 
-    .team-card {
-        margin-bottom: 30px;
-        position: relative;
+    .team-card-container {
+        padding: 20px 30px;
     }
 
-    .team-card:not(:last-child)::after {
-        content: "";
-        position: absolute;
-        bottom: -25px;
-        left: -30px;
-        width: calc(100% + 60px);
-        height: 1px;
-        background-color: #ffffff;
+    .team-card-container:not(:last-child) {
+        border-bottom: 1px solid #ffffff;
+    }
+
+    .team-card {
+        margin-bottom: 20px;
+        position: relative;
     }
 
     .team-container {
