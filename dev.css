@@ -25,12 +25,15 @@ body {
 .dev-card {
     background-color: white;
     border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 15px #ae00ff;
     width: 100%;
     max-width: 600px;
     padding: 30px 20px;
     text-align: center;
     animation: showCard 2s ease-in;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .dev-card p{
@@ -38,6 +41,13 @@ body {
     color: #000000;
     font-size: 20px;
     font-style: italic;
+}
+
+.icon {
+    background-color: #ffffff;
+    padding: 0;
+    max-width: 20px;
+    max-height: 20px;
 }
 
 .dev-image {
@@ -78,3 +88,18 @@ body {
     color: #ffffff;
 }
 
+.icon-text {
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px
+}
+
+.volver {
+    background-color: #ffffff;
+    color: #000000;
+    margin-top: 10px;
+}

@@ -498,6 +498,14 @@ footer {
         flex-direction: column;
     }
 
+    .ceremony-info h3 {
+        padding: 0px 20px;
+    }
+
+    .ceremony-info p:first-of-type {
+        padding: 0px 20px;
+    }
+
     .ceremony-image {
         max-height: 300px;
         margin-bottom: 20px;
@@ -505,6 +513,7 @@ footer {
 
     .ceremony-steps {
         grid-template-columns: 1fr;
+        padding: 0px 10px;
     }
 
     .ceremony-button {
