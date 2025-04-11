@@ -5,7 +5,7 @@ El siguiente repositorio contiene la evaluación 1 del ramo Programación de Apl
 Se basó en la temática de una cafetería que trabaja con materiales importados de Japón, llamada "kohi".
 
 ##### Se puede acceder a la página directamente en:
-> javierqaz.github.io/EV1-AppsWeb
+> <javierqaz.github.io/EV1-AppsWeb>
 
 Se trabajó según la rúbrica entregada, donde el proyecto:
 
