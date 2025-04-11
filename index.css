@@ -251,6 +251,17 @@ footer {
     border-top: 1px solid #eeeeee;
 }
 
+.footer-rrss-dev {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.footer-rrss img {
+    width: 30px;
+    height: 30px;
+}
+
 @media (max-width: 768px) {
     .main-container {
         grid-template-areas:
@@ -352,5 +363,15 @@ footer {
         margin-left: 0;
         margin-top: 10px;
         text-align: center;
+    }
+
+    .footer-rrss-dev {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+
+    .footer-rrss {
+        padding-bottom: 10px;
     }
 }
